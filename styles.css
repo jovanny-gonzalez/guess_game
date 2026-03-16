@@ -45,13 +45,6 @@ button:hover{
     background-color: #a1f6ff;
 }
 
-
-.card-container{
-    width: 550px;
-    height: 420px;
-    perspective: 1500px;
-}
-
 .game-container{
     width: 550px;
     height: 420px;
@@ -68,89 +61,4 @@ button:hover{
     align-items: center;
     align-content: center;
     text-align: center;
-
-
-}
-
-a{
-    color: rgb(214, 183, 5);
-}
-
-a:hover{
-    color: rgb(124, 105, 0);
-}
-
-
-
-.card{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    transform-style: preserve-3d;
-    transition: transform 0.9s;
-    border: 5px solid #cb00cb;
-    border-radius: 16px;
-}
-
-.card-container:hover .card{
-    transform:rotateY(180deg)
-}
-
-
-.card-face{
-    position:absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
-    border-radius: 10px;
-    flex-direction: column;
-
-}
-
-.card-front{
-    background: #6fc6ff;
-    color:white;
-    
-    position:absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
-    border-radius: 10px;
-    flex-direction: column;
-
-    line-height: 23px;
-
-}
-
-
-.card-back{
-    background-color: #73faab;
-    color: white;
-    transform: rotateY(180deg);
-    
-    position:absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
-    border-radius: 10px;
-    flex-direction: column;
-
 }
